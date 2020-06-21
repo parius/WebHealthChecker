@@ -1,4 +1,6 @@
-![Python application](https://github.com/parius/WebHealthChecker/workflows/Python%20application/badge.svg)
+![Build](https://github.com/parius/WebHealthChecker/workflows/Build/badge.svg) [![codecov](https://codecov.io/gh/parius/WebHealthChecker/branch/master/graph/badge.svg)](https://codecov.io/gh/parius/WebHealthChecker)
+
+
 
 # Website Health Checker
 
