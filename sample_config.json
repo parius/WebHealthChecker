@@ -1,0 +1,13 @@
+{
+    "KafkaTopic":"kafka-topic",
+    "KafkaServerURL":"localhost/kafka:14452",
+    "KafkaCAFile":"cert/ca.pem",
+    "KafkaCertFile":"cert/service.cert",
+    "KafkaKeyFile":"cert/service.key",
+    "DBUser":"postgres",
+    "DBPassword":"notapassword",
+    "DBHost":"localhost/db",
+    "DBPort":"14450",
+    "DBDatabase":"testdb",
+    "HealthCheckIntervalSec":"30"
+}

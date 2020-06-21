@@ -1,0 +1,8 @@
+config.json
+.vscode
+.idea
+**/__pycache__
+**/.pytest_cache
+cert
+htmlcov
+.coverage
