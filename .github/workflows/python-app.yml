@@ -34,4 +34,4 @@ jobs:
     - name: Test with pytest
       run: |
         pytest --cov=./
-        codecov
+        codecov --token=${{secrets.CODECOV_TOKEN}}
