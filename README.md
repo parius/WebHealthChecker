@@ -1,12 +1,17 @@
+![Python application](https://github.com/parius/WebHealthChecker/workflows/Python%20application/badge.svg)
+
 # Website Health Checker
 
+System that monitors website availability over the
+network, produces metrics about this and passes these events through an
+Kafka instance into an PostgreSQL database.
+
 ----
-Installation
-pip install kafka-python
-pip install requests
-pip install psycopg2
-pip install -U pytest
-pip install pytest-cov
+Basic architecture and intended usage
+
+python agent.py config.json sites.json
+
+python server.py config.json
 
 ----
 Code snippets for working with Kafka were taken from 
